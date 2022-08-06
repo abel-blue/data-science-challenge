@@ -11,7 +11,7 @@
 
 </br>
 
-![ad-image](https://www.airtory.com/blog/wp-content/uploads/2021/07/June_Blog-3.png)
+![ad-image](https://marketsplash.com/content/images/2021/07/Improve-The-UX-Of-Your-Website-Content.png)
 
 ## Table of Contents
 
