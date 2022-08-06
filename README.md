@@ -59,20 +59,20 @@ images provided in Creative_assets.zip file and use them to enrich the already e
 features in(global_design_data.json). The plan here is to determine potential adunit components
 that can help the help for creative kpi performance.
 
->### <b>Data:</b>
+### <b>Data:</b>
 >
 > <p>
 
-- <b>Design data ( global_design_data.json)</b>: 
+> - <b>Design data ( global_design_data.json)</b>: 
 This data is found by analyzing the advertisements using computer vision. It constitutes
 the ad-unit components. Note that the unique identifier in this data is game_key
-- <b>Campaigns data (campaigns_inventory.csv)</b>:
+> - <b>Campaigns data (campaigns_inventory.csv)</b>:
 Campaign historical performance dataset. It contains historical inventories of the
 campaign created placed and also KPI events associated with it. The type column is the
 one you will find the KPI events.
-- <b>Briefs data (briefing.csv)</b>:
+> - <b>Briefs data (briefing.csv)</b>:
 Campaign & creative plan data.
-- <b>Creative Assets(Creative_assets_) Zipped File</b>:
+> - <b>Creative Assets(Creative_assets_) Zipped File</b>:
 The data contains images for particular game keys. Use computer vision to extract
 features that enrich the already existing features in design data.
 
