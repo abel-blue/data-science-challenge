@@ -123,7 +123,7 @@ features that enrich the already existing features in design data.
 - `tests/`: the folder containing unit tests for the scripts.
 - `test.py`: the file containing unit tests for the scripts.
 
-### [root file](#)
+### [root file](#):
 
 - `requirements.txt`: a text file listing the projet's dependancies.
 <!-- - `.travis.yml`: a configuration file Travis CI for unit test. -->
@@ -143,7 +143,7 @@ conda create --name mlenv python==3.8
 conda activate mlenv
 ```
 
-### Next
+Next
 
 ```bash
 git clone https://github.com/Abel-Blue/adludio-data-science-challenge.git
@@ -155,4 +155,4 @@ sudo python3 setup.py install
 
 # <a name='license'></a>License
 
-[MIT License](https://github.com/Abel-Blue/adludio-data-science-challenge/blob/main/LICENSE)
+[MIT](https://github.com/Abel-Blue/adludio-data-science-challenge/blob/main/LICENSE)
