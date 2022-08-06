@@ -22,7 +22,7 @@
    - [scripts](#scripts)
    - [tests](#tests)
    - [logs](#logs)
-   - [root folder](#root-folder)
+   - [root file](#root-file)
 3. [Installation guide](#installation-guide)
 
 <hr>
@@ -123,7 +123,7 @@ features that enrich the already existing features in design data.
 - `tests/`: the folder containing unit tests for the scripts.
 - `test.py`: the file containing unit tests for the scripts.
 
-### [root folder](#)
+### [root file](#)
 
 - `requirements.txt`: a text file listing the projet's dependancies.
 <!-- - `.travis.yml`: a configuration file Travis CI for unit test. -->
