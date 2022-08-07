@@ -3,7 +3,6 @@ import psycopg2
 from configparser import ConfigParser
 #!/usr/bin/python
 import psycopg2
-from config import config
 
 def config(filename='database.ini', section='postgresql'):
     # create a parser
@@ -42,6 +41,29 @@ def connect():
         # display the PostgreSQL database server version
         db_version = cur.fetchone()
         print(db_version)
+       
+	# close the communication with the PostgreSQL
+        cur.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+    finally:
+        if conn is not None:
+            conn.close()
+            print('Database connection closed.')
+
+def fetch(path):
+    conn = None
+    try:
+        # read connection parameters
+        params = config()
+
+        # connect to the PostgreSQL server
+        print('Connecting to the PostgreSQL database...')
+        conn = psycopg2.connect(**params)
+		
+        # create a cursor
+        cur = conn.cursor()
+        exe = cur.execute(open(path, "r").read())
        
 	# close the communication with the PostgreSQL
         cur.close()
