@@ -20,10 +20,11 @@ class CmpDfExtractor:
         self.cmp_list = cmp_list
         print('Data Extraction in progress...')
     
-    def gamekey_extractor(self):
+    def gamekey_extractor(json_file: str):
+        df = pd.read_json(json_file)
         game_key = []
-        for x in self.cmp_list:
-            game_key.append(x[0])
+        for col, row in zip(df.columns, df.index):
+            game_key.append(col + "/" + row)
         return game_key
             
     def labels_extractor(self):
@@ -32,8 +33,8 @@ class CmpDfExtractor:
         for x in self.cmp_list:
             for k, v in x[1].items():
                 if 'labels' in v.keys():
-                    labels_engagement.append(v['labels']['engagement'])
-                    labels_clickthr.append(v['labels']['click_through'])
+                    labels_engagement.append(",".join(v['labels']['engagement']))
+                    labels_clickthr.append(",".join(v['labels']['click_through']))
                 else:
                     labels_engagement.append(None)
                     labels_clickthr.append(None)
@@ -45,25 +46,60 @@ class CmpDfExtractor:
         for x in self.cmp_list:
             for k, v in x[1].items():
                 if 'text' in v.keys():
-                    text_engagement.append(v['text']['engagement'])
-                    text_clickthr.append(v['text']['click_through'])
+                    text_engagement.append(",".join(v['text']['engagement']))
+                    text_clickthr.append(",".join(v['text']['click_through']))
                 else:
                     text_engagement.append(None)
                     text_clickthr.append(None)
         return text_engagement, text_clickthr
         
     def color_extractor(self):
-        colors_engagement = []
-        colors_clickthr = []
+        colors_engagement_red = []
+        colors_engagement_green = []
+        colors_engagement_blue = []
+        colors_engagement_proportion = []
+        colors_engagement_saturation = []
+        colors_engagement_luminosity = []
+        # 
+        colors_clickthr_red = []
+        colors_clickthr_green = []
+        colors_clickthr_blue  = []
+        colors_clickthr_proportion = []
+        colors_clickthr_saturation = []
+        colors_clickthr_luminosity = []
+        # 
         for x in self.cmp_list:
             for k, v in x[1].items():
                 if 'colors' in v.keys():
-                    colors_engagement.append(v['colors']['engagement'])
-                    colors_clickthr.append(v['colors']['click_through'])
+                    colors_engagement_red.append(v['colors']['engagement']['1']['red'])
+                    colors_engagement_green.append(v['colors']['engagement']['1']['green'])
+                    colors_engagement_blue.append(v['colors']['engagement']['1']['blue'])
+                    colors_engagement_proportion.append(v['colors']['engagement']['1']['proportion'])
+                    colors_engagement_saturation.append(v['colors']['engagement']['1']['saturation'])
+                    colors_engagement_luminosity.append(v['colors']['engagement']['1']['luminosity'])
+                    # 
+                    colors_clickthr_red.append(v['colors']['engagement']['1']['red'])
+                    colors_clickthr_green.append(v['colors']['engagement']['1']['green'])
+                    colors_clickthr_blue.append(v['colors']['engagement']['1']['blue'])
+                    colors_clickthr_proportion.append(v['colors']['engagement']['1']['proportion'])
+                    colors_clickthr_saturation.append(v['colors']['engagement']['1']['saturation'])
+                    colors_clickthr_luminosity.append(v['colors']['engagement']['1']['luminosity'])
                 else:
-                    colors_engagement.append(None)
-                    colors_clickthr.append(None)
-        return colors_engagement, colors_clickthr
+                    colors_engagement_red.append(None)
+                    colors_engagement_green.append()
+                    colors_engagement_blue.append(None)
+                    colors_engagement_proportion.append(None)
+                    colors_engagement_saturation.append(None)
+                    colors_engagement_luminosity.append(None)
+                    # 
+                    colors_clickthr_red.append(None)
+                    colors_clickthr_green.append(None)
+                    colors_clickthr_blue.append(None)
+                    colors_clickthr_proportion.append(None)
+                    colors_clickthr_saturation.append(None)
+                    colors_clickthr_luminosity.append(None)
+            
+        return colors_engagement_red, colors_engagement_green, colors_engagement_blue, colors_engagement_proportion, colors_engagement_saturation, colors_engagement_luminosity, colors_clickthr_red, colors_clickthr_green, colors_clickthr_blue, colors_clickthr_proportion, colors_clickthr_saturation, colors_clickthr_luminosity
     
     def videosd_extractor(self):
         videos_data = []
@@ -92,24 +128,44 @@ class CmpDfExtractor:
                 else:
                     direction_data.append(None)
         return direction_data
+    
+    def adunit_size_extractor(self):
+        adunit_sizex = []
+        adunit_sizey = []
+        for x in self.cmp_list:
+            for k, v in x[1].items():
+                if 'adunit_size' in v.keys():
+                    adunit_sizex.append(v['adunit_size']['size_x'])
+                    adunit_sizey.append(v['adunit_size']['size_y'])
+                else:
+                    adunit_sizex.append(None)
+                    adunit_sizey.append(None)
+        return adunit_sizex, adunit_sizey
+        
         
     def get_cmp_df(self, save=False) -> pd.DataFrame:
 
         columns = ['game_key', 'labels_engagement', 'labels_clickthr', 
-                   'text_engagement', 'text_clickthr',
-                   'videosd', 'eng_type', 'direction']
+                   'text_engagement', 'text_clickthr', 'colors_engagement_red', 
+                   'colors_engagement_green', 'colors_engagement_blue', 
+                   'colors_engagement_proportion', 'colors_engagement_saturation', 
+                   'colors_engagement_luminosity', 'colors_clickthr_red', 
+                   'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 
+                   'colors_clickthr_saturation', 'colors_clickthr_luminosity',
+                   'videosd', 'eng_type', 'direction', 'adunit_sizex', 'adunit_sizey']
 
-        game_key = self.gamekey_extractor()
+        game_key = self.gamekey_extractor("data/global_design_data.json")
         labels_engagement, labels_clickthr = self.labels_extractor()
         text_engagement, text_clickthr = self.text_extractor() 
-        # colors_engagement, colors_clickthr = self.color_extractor()
+        colors_engagement_red, colors_engagement_green, colors_engagement_blue, colors_engagement_proportion, colors_engagement_saturation, colors_engagement_luminosity, colors_clickthr_red, colors_clickthr_green, colors_clickthr_blue, colors_clickthr_proportion, colors_clickthr_saturation, colors_clickthr_luminosity = self.color_extractor()
         videosd = self.videosd_extractor()
         eng_type = self.eng_type_extractor()
         direction = self.direction_extractor()
+        adunit_sizex, adunit_sizey = self.adunit_size_extractor()
         
         data = zip_longest(game_key, labels_engagement, labels_clickthr, text_engagement, 
-                           text_clickthr, videosd, 
-                           eng_type, direction, fillvalue=np.nan)
+                           text_clickthr, colors_engagement_red, colors_engagement_green, colors_engagement_blue, colors_engagement_proportion, colors_engagement_saturation, colors_engagement_luminosity, colors_clickthr_red, colors_clickthr_green, colors_clickthr_blue, colors_clickthr_proportion, colors_clickthr_saturation, colors_clickthr_luminosity,
+                           videosd, eng_type, direction, adunit_sizex, adunit_sizey, fillvalue=np.nan)
         df = pd.DataFrame(data=data, columns=columns)
 
         if save:
