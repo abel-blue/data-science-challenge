@@ -1,9 +1,9 @@
--- Table: raw.briefing
-DROP TABLE IF EXISTS new_records;
-CREATE TABLE new_records AS
+
+DROP TABLE IF EXISTS inv_bri;
+CREATE TABLE inv_bri AS
 SELECT * FROM inventory LEFT JOIN briefing using(campaign_id);
 
-DROP TABLE IF EXISTS merged_record;
-CREATE TABLE merged_record AS
-SELECT * FROM new_records LEFT JOIN extracted using(game_key);
+DROP TABLE IF EXISTS merged;
+CREATE TABLE merged AS
+SELECT * FROM inv_bri LEFT JOIN extracted using(game_key);
 
