@@ -1,5 +1,6 @@
 import logging
 
+
 class App_Logger:
 
     def __init__(self, file_name: str, basic_level=logging.INFO):
