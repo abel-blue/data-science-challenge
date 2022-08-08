@@ -52,18 +52,18 @@ class CmpDfExtractor:
                     text_clickthr.append(None)
         return text_engagement, text_clickthr
         
-    # def color_extractor(self):
-    #     colors_engagement = []
-    #     colors_clickthr = []
-    #     for x in self.cmp_list:
-    #         for k, v in x[1].items():
-    #             if 'colors' in v.keys():
-    #                 colors_engagement.append(v['colors']['engagement'])
-    #                 colors_clickthr.append(v['colors']['click_through'])
-    #             else:
-    #                 colors_engagement.append(None)
-    #                 colors_clickthr.append(None)
-    #     return colors_engagement, colors_clickthr
+    def color_extractor(self):
+        colors_engagement = []
+        colors_clickthr = []
+        for x in self.cmp_list:
+            for k, v in x[1].items():
+                if 'colors' in v.keys():
+                    colors_engagement.append(v['colors']['engagement'])
+                    colors_clickthr.append(v['colors']['click_through'])
+                else:
+                    colors_engagement.append(None)
+                    colors_clickthr.append(None)
+        return colors_engagement, colors_clickthr
     
     def videosd_extractor(self):
         videos_data = []
