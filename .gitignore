@@ -136,3 +136,5 @@ data/global_design_data.zip
 data/extracted_cmp_data.csv
 data/cleaned_cmp_data.csv
 dbt-env/
+notebooks/test.ipynb
+scripts/test.py
