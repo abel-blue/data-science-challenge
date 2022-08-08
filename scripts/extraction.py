@@ -94,7 +94,6 @@ class CmpDfExtractor:
         return direction_data
         
     def get_cmp_df(self, save=False) -> pd.DataFrame:
-        """required column to be generated you should be creative and add more features"""
 
         columns = ['game_key', 'labels_engagement', 'labels_clickthr', 
                    'text_engagement', 'text_clickthr',
