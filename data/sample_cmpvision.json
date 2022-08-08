@@ -1,0 +1,110 @@
+{
+"f910338e60315f02812b05e932068f47": {
+    "1028d033d74dd2e24f67": {
+        "labels": {
+            "engagement": ["Asphalt", "Tarmac", "Road", "Runway"], 
+            "click_through": ["Asphalt", "Tarmac", "Road", "Runway"]}, 
+        "text": {
+            "engagement": ["Amazing Hong Kong", "air", "deals!", "Swipe Up", "BEST", "OF ALL", "IT'S IN", "HONG", "KONG"], 
+            "click_through": ["Amazing Hong Kong", "air", "deals!", "Swipe Up", "BEST", "OF ALL", "IT'S IN", "HONG", "KONG"]}, 
+        "colors": {
+            "engagement": {
+                "1": {
+                    "red": 153, 
+                    "green": 154, 
+                    "blue": 167,
+                    "proportion": 0.21955128205128205, 
+                    "saturation": 0.07368421052631581, 
+                    "luminosity": 0.6274509803921569},
+                "2": {
+                    "red": 32, 
+                    "green": 43, 
+                    "blue": 66, 
+                    "proportion": 0.1482371794871795, 
+                    "saturation": 0.34693877551020413, 
+                    "luminosity": 0.19215686274509805}, 
+                "3": {
+                    "red": 11, 
+                    "green": 25, 
+                    "blue": 36, 
+                    "proportion": 0.13221153846153846, 
+                    "saturation": 0.5319148936170213, 
+                    "luminosity": 0.09215686274509804}, 
+                "4": {
+                    "red": 72, 
+                    "green": 104, 
+                    "blue": 157, 
+                    "proportion": 0.10977564102564102, 
+                    "saturation": 0.3711790393013101, 
+                    "luminosity": 0.44901960784313727}, 
+                "5": {
+                    "red": 49, 
+                    "green": 74, 
+                    "blue": 123, 
+                    "proportion": 0.10416666666666667, 
+                    "saturation": 0.4302325581395348, 
+                    "luminosity": 0.33725490196078434}, 
+                "6": {
+                    "red": 107, 
+                    "green": 129, 
+                    "blue": 165, 
+                    "proportion": 0.10096153846153846, 
+                    "saturation": 0.24369747899159666, 
+                    "luminosity": 0.5333333333333333}, 
+                "7": {
+                    "red": 67, 
+                    "green": 73, 
+                    "blue": 82, 
+                    "proportion": 0.0985576923076923, 
+                    "saturation": 0.10067114093959734, 
+                    "luminosity": 0.29215686274509806}, 
+                "8": {
+                    "red": 90, 
+                    "green": 28, 
+                    "blue": 45, 
+                    "proportion": 0.04326923076923077, 
+                    "saturation": 0.5254237288135594, 
+                    "luminosity": 0.23137254901960785}, 
+                "9": {
+                    "red": 129, 
+                    "green": 113, 
+                    "blue": 115, 
+                    "proportion": 0.03445512820512821, 
+                    "saturation": 0.06611570247933884, 
+                    "luminosity": 0.4745098039215686}, 
+                "10": {
+                    "red": 226, 
+                    "green": 226, 
+                    "blue": 230, 
+                    "proportion": 0.008814102564102564, 
+                    "saturation": 0.07407407407407429, 
+                    "luminosity": 0.8941176470588235}}, 
+            "click_through": {}}, 
+        "videos_data": {
+            "has_video": 0}, 
+        "eng_type": {
+            "eng_type": "swipe"}, 
+        "direction": {
+            "direction": "up"}}},
+                
+"444e104ea378baae87997c41eec5b2ff": {
+    "9e1c545a4b490a7c3088": {
+        "labels": {
+            "engagement": [], 
+            "click_through": []}, 
+        "text": {
+            "engagement": ["OREO BIEDO", "BSEEJOREO", "OREO", "...", "1997 Nintendo, Creatures. GAME FREAK. TV Tokyo, ShoPro, JR Kikaku.", "Pokemon. TM and are trademarks of Nintendo.", "For promotional use n Congl Kong only Licensed by Mighty Media Co. Ltd."], 
+            "click_through": ["OREO BIEDO", "BSEEJOREO", "OREO", "...", "1997 Nintendo, Creatures. GAME FREAK. TV Tokyo, ShoPro, JR Kikaku.", "Pokemon. TM and are trademarks of Nintendo.", "For promotional use n Congl Kong only Licensed by Mighty Media Co. Ltd."]}, 
+        "colors": {
+            "engagement": {"1": {"red": 2, "green": 91, "blue": 173, "proportion": 0.1642628205128205, "saturation": 0.9771428571428572, "luminosity": 0.3431372549019608}, "2": {"red": 181, "green": 127, "blue": 61, "proportion": 0.14983974358974358, "saturation": 0.4958677685950413, "luminosity": 0.47450980392156866}, "3": {"red": 52, "green": 53, "blue": 55, "proportion": 0.13541666666666666, "saturation": 0.028037383177570124, "luminosity": 0.20980392156862746}, "4": {"red": 13, "green": 151, "blue": 219, "proportion": 0.1233974358974359, "saturation": 0.8879310344827586, "luminosity": 0.4549019607843137}, "5": {"red": 129, "green": 106, "blue": 54, "proportion": 0.10256410256410256, "saturation": 0.40983606557377045, "luminosity": 0.3588235294117647}, "6": {"red": 246, "green": 211, "blue": 6, "proportion": 0.08974358974358974, "saturation": 0.9523809523809523, "luminosity": 0.49411764705882355}, "7": {"red": 243, "green": 221, "blue": 186, "proportion": 0.06891025641025642, "saturation": 0.7037037037037035, "luminosity": 0.8411764705882352}, "8": {"red": 75, "green": 118, "blue": 134, "proportion": 0.060897435897435896, "saturation": 0.2822966507177034, "luminosity": 0.40980392156862744}, "9": {"red": 219, "green": 180, "blue": 90, "proportion": 0.058493589743589744, "saturation": 0.6417910447761195, "luminosity": 0.6058823529411764}, "10": {"red": 146, "green": 175, "blue": 189, "proportion": 0.046474358974358976, "saturation": 0.2457142857142858, "luminosity": 0.6568627450980392}}, 
+            "click_through": {}}, 
+        "videos_data": {"has_video": 0}, 
+        "direction": {"direction": "no direction"}}, 
+    "e7370ccd417a54394cfc": {
+        "labels": {"engagement": [], "click_through": []}, 
+        "text": {"engagement": ["OREO DD", "BSELEIJOREO", "OREO ...", "1997 Nintendo, Creatures. GAME FREAK. TV Tokyo, ShoPro, JR Kikaku.", "Pokemon. TM and are trademarks of Nintendo.", "For promotional luse in Hong Kong only Licensed by Might Media Co. Lta,"], "click_through": ["OREO DD", "BSELEIJOREO", "OREO ...", "1997 Nintendo, Creatures. GAME FREAK. TV Tokyo, ShoPro, JR Kikaku.", "Pokemon. TM and are trademarks of Nintendo.", "For promotional luse in Hong Kong only Licensed by Might Media Co. Lta,"]}, 
+        "colors": {"engagement": {"1": {"red": 2, "green": 91, "blue": 173, "proportion": 0.1642628205128205, "saturation": 0.9771428571428572, "luminosity": 0.3431372549019608}, "2": {"red": 181, "green": 127, "blue": 61, "proportion": 0.14983974358974358, "saturation": 0.4958677685950413, "luminosity": 0.47450980392156866}, "3": {"red": 52, "green": 54, "blue": 56, "proportion": 0.13701923076923078, "saturation": 0.037037037037037035, "luminosity": 0.21176470588235294}, "4": {"red": 13, "green": 151, "blue": 219, "proportion": 0.1233974358974359, "saturation": 0.8879310344827586, "luminosity": 0.4549019607843137}, "5": {"red": 129, "green": 106, "blue": 54, "proportion": 0.10256410256410256, "saturation": 0.40983606557377045, "luminosity": 0.3588235294117647}, "6": {"red": 246, "green": 211, "blue": 5, "proportion": 0.08814102564102565, "saturation": 0.9601593625498007, "luminosity": 0.49215686274509807}, "7": {"red": 244, "green": 221, "blue": 186, "proportion": 0.06891025641025642, "saturation": 0.7250000000000005, "luminosity": 0.8431372549019608}, "8": {"red": 77, "green": 119, "blue": 135, "proportion": 0.06009615384615385, "saturation": 0.2735849056603774, "luminosity": 0.4156862745098039}, "9": {"red": 219, "green": 181, "blue": 89, "proportion": 0.06009615384615385, "saturation": 0.6435643564356436, "luminosity": 0.6039215686274509}, "10": {"red": 146, "green": 175, "blue": 190, "proportion": 0.04567307692307692, "saturation": 0.2528735632183909, "luminosity": 0.6588235294117647}}, "click_through": {}}, 
+        "videos_data": {"has_video": 0}, 
+        "direction": {"direction": "no direction"}}}
+
+}
