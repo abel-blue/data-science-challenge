@@ -138,3 +138,5 @@ data/cleaned_cmp_data.csv
 dbt-env/
 notebooks/test.ipynb
 scripts/test.py
+data/.~lock.briefing.csv#
+data/.~lock.campaigns_inventory_updated.csv#
