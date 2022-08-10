@@ -30,6 +30,8 @@
 
 ## Introduction
 
+- [Short Slide Presentation](https://www.canva.com/design/DAFBtdnLoKQ/hxJHGTgvoTwJMX9hXbbGVA/view?utm_content=DAFBtdnLoKQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 > <p>We are expected to develop a Machine Learning framework in a modular way to determine the KPI likelihood (engagement & click) of an impression given its inventory, brief, and creative design components.</p>
 
  <p>The given data was registered at different steps of the creative creation and ad
