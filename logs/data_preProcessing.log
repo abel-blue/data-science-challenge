@@ -437,3 +437,36 @@
 2022-08-10 15:30:13,694 : INFO : log : Plot rectangular data as a color-encoded matrix and correlation matrix.
 2022-08-10 15:31:08,678 : INFO : log : Showing data information
 2022-08-10 15:31:08,678 : INFO : log : Showing data information
+2022-08-10 16:26:10,701 : INFO : log : Colums with missing values: ['floats']
+2022-08-10 16:26:10,701 : INFO : log : Colums with missing values: ['floats']
+2022-08-10 16:26:10,701 : INFO : log : Colums with missing values: ['floats']
+2022-08-10 16:26:10,705 : INFO : log : Converted to numbers
+2022-08-10 16:26:10,705 : INFO : log : Converted to numbers
+2022-08-10 16:26:10,705 : INFO : log : Converted to numbers
+2022-08-10 16:26:10,705 : INFO : log : Converted to numbers
+2022-08-10 16:26:10,706 : INFO : log : Showing coloumn names
+2022-08-10 16:26:10,706 : INFO : log : Showing coloumn names
+2022-08-10 16:26:10,706 : INFO : log : Showing coloumn names
+2022-08-10 16:26:10,706 : INFO : log : Showing coloumn names
+2022-08-10 16:26:10,706 : INFO : log : Showing coloumn names
+2022-08-10 16:26:10,716 : INFO : log : Dropped duplicates: Int64Index([], dtype='int64')
+2022-08-10 16:26:10,716 : INFO : log : Dropped duplicates: Int64Index([], dtype='int64')
+2022-08-10 16:26:10,716 : INFO : log : Dropped duplicates: Int64Index([], dtype='int64')
+2022-08-10 16:26:10,716 : INFO : log : Dropped duplicates: Int64Index([], dtype='int64')
+2022-08-10 16:26:10,716 : INFO : log : Dropped duplicates: Int64Index([], dtype='int64')
+2022-08-10 16:26:10,716 : INFO : log : Dropped duplicates: Int64Index([], dtype='int64')
+2022-08-10 16:26:10,718 : INFO : log : Showing data information
+2022-08-10 16:26:10,718 : INFO : log : Showing data information
+2022-08-10 16:26:10,718 : INFO : log : Showing data information
+2022-08-10 16:26:10,718 : INFO : log : Showing data information
+2022-08-10 16:26:10,718 : INFO : log : Showing data information
+2022-08-10 16:26:10,718 : INFO : log : Showing data information
+2022-08-10 16:26:10,718 : INFO : log : Showing data information
+2022-08-10 16:26:10,766 : INFO : log : Showing datatypes
+2022-08-10 16:26:10,766 : INFO : log : Showing datatypes
+2022-08-10 16:26:10,766 : INFO : log : Showing datatypes
+2022-08-10 16:26:10,766 : INFO : log : Showing datatypes
+2022-08-10 16:26:10,766 : INFO : log : Showing datatypes
+2022-08-10 16:26:10,766 : INFO : log : Showing datatypes
+2022-08-10 16:26:10,766 : INFO : log : Showing datatypes
+2022-08-10 16:26:10,766 : INFO : log : Showing datatypes
