@@ -20,6 +20,7 @@
    - [data](#data)
    - [notebooks](#notebooks)
    - [scripts](#scripts)
+   - [sql](#sql)
    - [tests](#tests)
    - [logs](#logs)
    - [root file](#root-file)
@@ -107,16 +108,27 @@ features that enrich the already existing features in design data.
 - `notebooks/`: a jupyter notebook for preprocessing the data.
 - `data_exploration.ipynb`: a jupyter notebook for data exploration.
 - `ml_preprocess.ipynb`: a jupyter notebook for preprocessing the data.
-<!-- - `causal_inference.ipynb`: a jupyter notebook for causal inference feature extraction. -->
 - `ml_model.ipynb`: a jupyter notebook for machine learning model training.
 
 ### [scripts](scripts):
 
 - `scripts/`: folder where modules are stored.
-<!-- - `causality.py`: a module for causal inference. -->
+- `computer_vision_extraction`: a module for json data extraction.
 - `data_manipulation.py`: a module for data manipulation.
 - `data_exploration.py`: a module for data exploration.
 - `data_preProcessing.py`: a module for data preprocessing.
+- `logs.py`: scripts for log sessions.
+- `sql_api.py`: api for python and postgres connection.
+
+### [sql](sql):
+
+- `ingestion_briefing.sql` : ingesiton script for briefing.
+- `ingestion_cmpvision.sql`: ingesiton script for json.
+- `ingestion_extracted_json.sql`: ingesiton script for extracted json.
+- `ingestion_inventory.sql`: ingesiton script for inventory.
+- `merge_load_tables.sql`: transform for merged data.
+- `validation.sql`: data validation checker.
+
 
 ### [tests](tests):
 
@@ -126,7 +138,6 @@ features that enrich the already existing features in design data.
 ### [root file](#):
 
 - `requirements.txt`: a text file listing the projet's dependancies.
-<!-- - `.travis.yml`: a configuration file Travis CI for unit test. -->
 - `setup.py`: a configuration file for installing the scripts as a package.
 - `results.txt`: a text file containing the results of the cml report.
 - `train.py`: a script for training the model.
