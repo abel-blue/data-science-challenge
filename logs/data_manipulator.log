@@ -175,3 +175,68 @@
 2022-08-10 12:09:04,701 : INFO : log : Plot rectangular data as a color-encoded matrix and correlation matrix.
 2022-08-10 12:10:07,222 : INFO : log : Showing data information
 2022-08-10 12:38:50,077 : INFO : log : Showing data information
+2022-08-10 14:27:55,826 : INFO : log : Showing data information
+2022-08-10 14:28:09,467 : INFO : log : Colums with missing values: ['height', 'device_type', 'browser', 'Delivery Requirements (Black/Audience/White List)', 'Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Agency Fee', 'Percentage', 'Flat Fee', 'Net Cost', 'labels_engagement', 'labels_clickthr', 'text_engagement', 'text_clickthr', 'colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'videosd', 'eng_type', 'direction', 'adunit_sizex', 'adunit_sizey']
+2022-08-10 14:28:12,080 : INFO : log : Showing missing percentage
+2022-08-10 14:37:13,282 : INFO : log : Showing missing percentage
+2022-08-10 14:37:41,865 : INFO : log : Showing missing percentage
+2022-08-10 14:37:59,845 : INFO : log : Dropped duplicates: Int64Index([ 3363,  8014,  9190,  9192, 12413, 12415, 14130, 14283, 15875,
+            16233, 16257, 20098, 23538, 24732, 27618, 28123, 28940, 30794,
+            30821, 31035, 31848, 33228, 38043, 38149, 43888, 43892, 43911,
+            43924, 44754, 44784, 47675, 47746, 48053, 49088, 49148, 50198,
+            61683, 61977, 62732, 69102, 69107, 69133, 71242, 74211, 75119,
+            75464, 75488, 75509, 81501, 84451, 86030, 86032, 88063, 99037],
+           dtype='int64')
+2022-08-10 14:38:04,044 : INFO : log : Showing data description
+2022-08-10 14:38:06,806 : INFO : log : Showing datatypes
+2022-08-10 14:38:13,245 : INFO : log : Plot a box plot.
+2022-08-10 14:38:15,388 : INFO : log : Plot a box plot.
+2022-08-10 14:38:16,687 : INFO : log : Plot a box plot.
+2022-08-10 14:38:17,448 : INFO : log : Plot a box plot.
+2022-08-10 14:38:18,929 : INFO : log : Plot a box plot.
+2022-08-10 14:38:28,796 : INFO : log : Outlier for ['Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Net Cost'] is fixed
+2022-08-10 14:38:28,796 : INFO : log : Outlier for ['Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Net Cost'] is fixed
+2022-08-10 14:40:09,949 : INFO : log : Showing data information
+2022-08-10 14:40:41,327 : INFO : log : Plot a histogram.
+2022-08-10 14:40:50,339 : INFO : log : Plot a histogram.
+2022-08-10 14:40:54,846 : INFO : log : Plot a histogram.
+2022-08-10 14:41:46,972 : INFO : log : Plot a histogram.
+2022-08-10 14:42:43,925 : INFO : log : Plot a histogram.
+2022-08-10 14:42:50,495 : INFO : log : Plot a histogram.
+2022-08-10 14:42:56,247 : INFO : log : Plot a histogram.
+2022-08-10 14:43:06,513 : INFO : log : Plot a histogram.
+2022-08-10 14:43:13,061 : INFO : log : Plot a histogram.
+2022-08-10 14:43:19,652 : INFO : log : Plot a histogram.
+2022-08-10 14:43:26,954 : INFO : log : Plot a histogram.
+2022-08-10 14:43:46,011 : INFO : log : Plot rectangular data as a color-encoded matrix and correlation matrix.
+2022-08-10 15:01:07,653 : INFO : log : Showing data information
+2022-08-10 15:01:14,086 : INFO : log : Colums with missing values: ['width', 'geo_country', 'device_type', 'browser', 'Delivery Requirements (Black/Audience/White List)', 'Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Flat Fee', 'labels_engagement', 'labels_clickthr', 'text_engagement', 'text_clickthr', 'colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'videosd', 'eng_type', 'direction', 'adunit_sizex', 'adunit_sizey']
+2022-08-10 15:01:16,555 : INFO : log : Showing missing percentage
+2022-08-10 15:03:25,674 : INFO : log : Showing data information
+2022-08-10 15:03:31,402 : INFO : log : Colums with missing values: ['width', 'browser', 'Delivery Requirements (Black/Audience/White List)', 'Percentage', 'Flat Fee', 'labels_engagement', 'labels_clickthr', 'text_engagement', 'text_clickthr', 'colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'videosd', 'eng_type', 'direction', 'adunit_sizex', 'adunit_sizey']
+2022-08-10 15:03:33,387 : INFO : log : Showing missing percentage
+2022-08-10 15:12:21,466 : INFO : log : Showing data information
+2022-08-10 15:12:34,283 : INFO : log : Colums with missing values: ['height', 'device_type', 'browser', 'Delivery Requirements (Black/Audience/White List)', 'Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Agency Fee', 'Percentage', 'Flat Fee', 'Net Cost', 'labels_engagement', 'labels_clickthr', 'text_engagement', 'text_clickthr', 'colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'videosd', 'eng_type', 'direction', 'adunit_sizex', 'adunit_sizey']
+2022-08-10 15:12:35,104 : INFO : log : Showing missing percentage
+2022-08-10 15:12:57,033 : INFO : log : Dropped duplicates: Int64Index([ 3363,  8014,  9190,  9192, 12413, 12415, 14130, 14283, 15875,
+            16233, 16257, 20098, 23538, 24732, 27618, 28123, 28940, 30794,
+            30821, 31035, 31848, 33228, 38043, 38149, 43888, 43892, 43911,
+            43924, 44754, 44784, 47675, 47746, 48053, 49088, 49148, 50198,
+            61683, 61977, 62732, 69102, 69107, 69133, 71242, 74211, 75119,
+            75464, 75488, 75509, 81501, 84451, 86030, 86032, 88063, 99037],
+           dtype='int64')
+2022-08-10 15:13:00,502 : INFO : log : Showing data description
+2022-08-10 15:13:03,573 : INFO : log : Showing datatypes
+2022-08-10 15:13:17,402 : INFO : log : Plot a box plot.
+2022-08-10 15:13:18,487 : INFO : log : Plot a box plot.
+2022-08-10 15:13:19,407 : INFO : log : Plot a box plot.
+2022-08-10 15:13:20,924 : INFO : log : Plot a box plot.
+2022-08-10 15:13:22,756 : INFO : log : Plot a box plot.
+2022-08-10 15:13:33,682 : INFO : log : Outlier for ['Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Net Cost'] is fixed
+2022-08-10 15:13:33,682 : INFO : log : Outlier for ['Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Net Cost'] is fixed
+2022-08-10 15:15:09,685 : INFO : log : Showing data information
+2022-08-10 15:15:26,417 : INFO : log : Plot a histogram.
+2022-08-10 15:17:22,051 : INFO : log : Plot a histogram.
+2022-08-10 15:29:35,219 : INFO : log : Showing data information
+2022-08-10 15:30:13,694 : INFO : log : Plot rectangular data as a color-encoded matrix and correlation matrix.
+2022-08-10 15:31:08,678 : INFO : log : Showing data information
