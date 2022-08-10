@@ -172,3 +172,71 @@
 2022-08-09 23:01:27,424 : INFO : log : Showing data information
 2022-08-10 06:21:09,441 : INFO : log : Showing data information
 2022-08-10 06:21:09,441 : INFO : log : Showing data information
+2022-08-10 06:45:16,430 : INFO : log : Showing data information
+2022-08-10 06:45:16,430 : INFO : log : Showing data information
+2022-08-10 06:45:52,439 : INFO : log : Colums with missing values: ['height', 'device_type', 'browser', 'Delivery Requirements (Black/Audience/White List)', 'Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Agency Fee', 'Percentage', 'Flat Fee', 'Net Cost', 'labels_engagement', 'labels_clickthr', 'text_engagement', 'text_clickthr', 'colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'videosd', 'eng_type', 'direction', 'adunit_sizex', 'adunit_sizey']
+2022-08-10 06:45:52,439 : INFO : log : Colums with missing values: ['height', 'device_type', 'browser', 'Delivery Requirements (Black/Audience/White List)', 'Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Agency Fee', 'Percentage', 'Flat Fee', 'Net Cost', 'labels_engagement', 'labels_clickthr', 'text_engagement', 'text_clickthr', 'colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'videosd', 'eng_type', 'direction', 'adunit_sizex', 'adunit_sizey']
+2022-08-10 06:45:58,271 : INFO : log : Showing missing percentage
+2022-08-10 06:45:58,271 : INFO : log : Showing missing percentage
+2022-08-10 08:37:58,170 : INFO : log : Showing missing percentage
+2022-08-10 08:37:58,170 : INFO : log : Showing missing percentage
+2022-08-10 08:38:59,086 : INFO : log : Showing missing percentage
+2022-08-10 08:38:59,086 : INFO : log : Showing missing percentage
+2022-08-10 08:39:21,385 : INFO : log : Showing missing percentage
+2022-08-10 08:39:21,385 : INFO : log : Showing missing percentage
+2022-08-10 08:40:14,884 : INFO : log : Showing missing percentage
+2022-08-10 08:40:14,884 : INFO : log : Showing missing percentage
+2022-08-10 08:43:44,914 : INFO : log : Showing missing percentage
+2022-08-10 08:43:44,914 : INFO : log : Showing missing percentage
+2022-08-10 08:46:04,370 : INFO : log : Showing missing percentage
+2022-08-10 08:46:04,370 : INFO : log : Showing missing percentage
+2022-08-10 08:47:29,813 : INFO : log : Showing missing percentage
+2022-08-10 08:47:29,813 : INFO : log : Showing missing percentage
+2022-08-10 08:48:36,039 : INFO : log : Showing missing percentage
+2022-08-10 08:48:36,039 : INFO : log : Showing missing percentage
+2022-08-10 08:49:07,718 : INFO : log : Showing missing percentage
+2022-08-10 08:49:07,718 : INFO : log : Showing missing percentage
+2022-08-10 08:50:12,529 : INFO : log : Showing missing percentage
+2022-08-10 08:50:12,529 : INFO : log : Showing missing percentage
+2022-08-10 08:50:58,181 : INFO : log : Showing missing percentage
+2022-08-10 08:50:58,181 : INFO : log : Showing missing percentage
+2022-08-10 08:53:13,069 : INFO : log : Showing missing percentage
+2022-08-10 08:53:13,069 : INFO : log : Showing missing percentage
+2022-08-10 08:53:46,906 : INFO : log : Showing missing percentage
+2022-08-10 08:53:46,906 : INFO : log : Showing missing percentage
+2022-08-10 08:58:08,840 : INFO : log : Showing missing percentage
+2022-08-10 08:58:08,840 : INFO : log : Showing missing percentage
+2022-08-10 08:58:49,048 : INFO : log : Showing missing percentage
+2022-08-10 08:58:49,048 : INFO : log : Showing missing percentage
+2022-08-10 08:59:21,409 : INFO : log : Dropped duplicates: Int64Index([ 3363,  8014,  9190,  9192, 12413, 12415, 14130, 14283, 15875,
+            16233, 16257, 20098, 23538, 24732, 27618, 28123, 28940, 30794,
+            30821, 31035, 31848, 33228, 38043, 38149, 43888, 43892, 43911,
+            43924, 44754, 44784, 47675, 47746, 48053, 49088, 49148, 50198,
+            61683, 61977, 62732, 69102, 69107, 69133, 71242, 74211, 75119,
+            75464, 75488, 75509, 81501, 84451, 86030, 86032, 88063, 99037],
+           dtype='int64')
+2022-08-10 08:59:21,409 : INFO : log : Dropped duplicates: Int64Index([ 3363,  8014,  9190,  9192, 12413, 12415, 14130, 14283, 15875,
+            16233, 16257, 20098, 23538, 24732, 27618, 28123, 28940, 30794,
+            30821, 31035, 31848, 33228, 38043, 38149, 43888, 43892, 43911,
+            43924, 44754, 44784, 47675, 47746, 48053, 49088, 49148, 50198,
+            61683, 61977, 62732, 69102, 69107, 69133, 71242, 74211, 75119,
+            75464, 75488, 75509, 81501, 84451, 86030, 86032, 88063, 99037],
+           dtype='int64')
+2022-08-10 08:59:27,499 : INFO : log : Showing data description
+2022-08-10 08:59:27,499 : INFO : log : Showing data description
+2022-08-10 08:59:30,732 : INFO : log : Showing datatypes
+2022-08-10 08:59:30,732 : INFO : log : Showing datatypes
+2022-08-10 09:00:36,660 : INFO : log : Plot a box plot.
+2022-08-10 09:00:36,660 : INFO : log : Plot a box plot.
+2022-08-10 09:00:46,932 : INFO : log : Plot a box plot.
+2022-08-10 09:00:46,932 : INFO : log : Plot a box plot.
+2022-08-10 09:01:15,011 : INFO : log : Plot a box plot.
+2022-08-10 09:01:15,011 : INFO : log : Plot a box plot.
+2022-08-10 09:02:07,696 : INFO : log : Plot a box plot.
+2022-08-10 09:02:07,696 : INFO : log : Plot a box plot.
+2022-08-10 09:02:13,495 : INFO : log : Plot a box plot.
+2022-08-10 09:02:13,495 : INFO : log : Plot a box plot.
+2022-08-10 09:03:30,627 : INFO : log : Outlier for ['Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Net Cost'] is fixed
+2022-08-10 09:03:30,627 : INFO : log : Outlier for ['Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Net Cost'] is fixed
+2022-08-10 09:04:28,250 : INFO : log : Outlier for ['Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Net Cost'] is fixed
+2022-08-10 09:04:28,250 : INFO : log : Outlier for ['Buy Rate (CPE)', 'Volume Agreed', 'Gross Cost/Budget', 'Percentage', 'Net Cost'] is fixed
