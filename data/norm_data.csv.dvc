@@ -1,0 +1,4 @@
+outs:
+- md5: 85abbc32882b02f8693eef8c2c43817b
+  size: 11839884
+  path: norm_data.csv
