@@ -139,3 +139,36 @@
 2022-08-10 10:05:56,379 : INFO : log : Plot a histogram.
 2022-08-10 10:09:29,435 : INFO : log : Plot a histogram.
 2022-08-10 10:16:25,624 : INFO : log : Showing data information
+2022-08-10 11:00:57,466 : INFO : log : Showing data information
+2022-08-10 11:02:34,271 : INFO : log : Colums with missing values: ['labels_engagement', 'labels_clickthr', 'text_engagement', 'colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'eng_type', 'adunit_sizex', 'adunit_sizey']
+2022-08-10 11:02:43,251 : INFO : log : Showing missing percentage
+2022-08-10 11:16:34,001 : INFO : log : Showing missing percentage
+2022-08-10 11:16:50,468 : INFO : log : Showing missing percentage
+2022-08-10 11:17:28,599 : INFO : log : Dropped duplicates: Int64Index([], dtype='int64')
+2022-08-10 11:17:54,335 : INFO : log : Showing data description
+2022-08-10 11:20:50,090 : INFO : log : Outlier for ['colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'adunit_sizex', 'adunit_sizey'] is fixed
+2022-08-10 11:20:50,090 : INFO : log : Outlier for ['colors_engagement_red', 'colors_engagement_green', 'colors_engagement_blue', 'colors_engagement_proportion', 'colors_engagement_saturation', 'colors_engagement_luminosity', 'colors_clickthr_red', 'colors_clickthr_green', 'colors_clickthr_blue', 'colors_clickthr_proportion', 'colors_clickthr_saturation', 'colors_clickthr_luminosity', 'adunit_sizex', 'adunit_sizey'] is fixed
+2022-08-10 11:22:39,687 : INFO : log : Plot a histogram.
+2022-08-10 11:22:39,687 : INFO : log : Plot a histogram.
+2022-08-10 11:23:17,978 : INFO : log : Plot a histogram.
+2022-08-10 11:23:17,978 : INFO : log : Plot a histogram.
+2022-08-10 11:23:23,602 : INFO : log : Plot a histogram.
+2022-08-10 11:23:23,602 : INFO : log : Plot a histogram.
+2022-08-10 11:25:17,563 : INFO : log : Plot a histogram.
+2022-08-10 11:25:17,563 : INFO : log : Plot a histogram.
+2022-08-10 11:26:21,145 : INFO : log : Plot a histogram.
+2022-08-10 11:26:21,145 : INFO : log : Plot a histogram.
+2022-08-10 11:28:53,464 : INFO : log : Plot a histogram.
+2022-08-10 11:28:53,464 : INFO : log : Plot a histogram.
+2022-08-10 11:29:03,151 : INFO : log : Plot a histogram.
+2022-08-10 11:29:03,151 : INFO : log : Plot a histogram.
+2022-08-10 11:29:08,107 : INFO : log : Plot a histogram.
+2022-08-10 11:29:08,107 : INFO : log : Plot a histogram.
+2022-08-10 11:30:36,026 : INFO : log : Plot a histogram.
+2022-08-10 11:30:36,026 : INFO : log : Plot a histogram.
+2022-08-10 11:31:16,389 : INFO : log : Plot a histogram.
+2022-08-10 11:31:16,389 : INFO : log : Plot a histogram.
+2022-08-10 11:42:42,698 : INFO : log : Plot a histogram.
+2022-08-10 11:42:42,698 : INFO : log : Plot a histogram.
+2022-08-10 11:42:51,821 : INFO : log : Plot a histogram.
+2022-08-10 11:42:51,821 : INFO : log : Plot a histogram.
